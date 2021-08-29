@@ -1,0 +1,10 @@
+{
+	"Includes": ["Dependency/GLEW/include/", "Dependency/GLFW/include/", "Dependency/FreeType/include/freetype2", "Sparky/Vendor", "Sparky"],
+	"Library": ["Dependency/GLEW/lib", "Dependency/GLFW/lib-mingw-w64", "Dependency/FreeType/lib"],
+	"Libs": ["-lmingw32", "-lglfw3", "-lopengl32", "-lUser32", "-lGdi32", "-lShell32", "-lglew32", "-limm32"],
+	"Type": "Cpp",
+	"Bit" : "64",
+	"LibBuild": false,
+	"C/Cpp_files": ["Sparky", "Sparky/Core", "Sparky/Camera", "Sparky/Entity", "Sparky/Renderer", "Sparky/Gui", "Sparky/Vendor/imgui", "Sparky/Vendor/stb_image", "SandBox"],
+	"Output_file": "game.exe"
+}
